@@ -6,23 +6,26 @@ public class Main_2 {
 	
 	public static void main(String args[]) {
 		
-		//예제 5-11 빈도수 구하기
+		
+		
+		
+		/*예제 5-11 빈도수 구하기
 		int[] numArr = new int[10];
 		int[] counter = new int[10];
 		
-		for(int i = 0; i < numArr.length; i++) {
+		for(int i = 0; i < numArr.length; i++) {   //배열 numArr에 0~9까지 램덤으로 초기화
 			numArr[i] = (int)(Math.random() * 10);
-			System.out.println(numArr[i]);
+			System.out.print(numArr[i]);
 		}
 		System.out.println();
 		
-		for(int i = 0; i < numArr.length; i++) {
+		for(int i = 0; i < numArr.length; i++) {   //배열 numArr에 들어있는 0~9까지의 숫자 횟수 확인
 			counter[numArr[i]]++;
 		}
-		for(int i = 0; i < numArr.length; i++) {
+		for(int i = 0; i < numArr.length; i++) {     // 출력
 			System.out.println(i + "의개수: " + counter[i]);
 		}
-		
+		/*		
 		
 		/*예제 5-10 정렬하기	
 		int[] numArr = new int[10];		
