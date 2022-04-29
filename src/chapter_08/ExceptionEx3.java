@@ -1,7 +1,6 @@
 package chapter_08;
 
 public class ExceptionEx3 {
-	
 	public static void main(String[] args) {
 		int number = 100;
 		int result = 0;

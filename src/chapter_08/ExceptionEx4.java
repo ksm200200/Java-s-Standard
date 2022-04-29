@@ -1,6 +1,7 @@
 package chapter_08;
 
 public class ExceptionEx4 {
+	
 	public static void main(String[] args) {
 		System.out.println(1);
 		System.out.println(2);

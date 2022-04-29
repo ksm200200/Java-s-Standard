@@ -1,6 +1,7 @@
 package chapter_08;
 
 public class FinallyTest {
+	
 	public static void main(String[] args) {
 		try {
 			startInstall();
@@ -12,7 +13,6 @@ public class FinallyTest {
 			e.printStackTrace();
 			deleteTempFiles();
 		} 
-		
 		
 	}
 	static void startInstall() {
